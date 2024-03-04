@@ -86,7 +86,7 @@ class LoginController extends Controller
 
         $this->sendFailedLoginResponse();
     }
-    
+
     protected function authenticated(Request $request, $user)
     {
         //

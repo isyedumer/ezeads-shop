@@ -43,7 +43,7 @@ class Customer extends BaseModel implements
     use HasApiTokens;
     use Notifiable;
 
-    protected $table = 'users';
+    protected $table = 'lc_users';
 
     protected $fillable = [
         'name',
